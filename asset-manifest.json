@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DavidKristek-website/static/css/main.1c22afb7.css",
-    "main.js": "/DavidKristek-website/static/js/main.e318911e.js",
-    "static/js/787.57d0d4f5.chunk.js": "/DavidKristek-website/static/js/787.57d0d4f5.chunk.js",
-    "index.html": "/DavidKristek-website/index.html",
-    "main.1c22afb7.css.map": "/DavidKristek-website/static/css/main.1c22afb7.css.map",
-    "main.e318911e.js.map": "/DavidKristek-website/static/js/main.e318911e.js.map",
-    "787.57d0d4f5.chunk.js.map": "/DavidKristek-website/static/js/787.57d0d4f5.chunk.js.map"
+    "main.css": "/davidkristek-website/static/css/main.1c22afb7.css",
+    "main.js": "/davidkristek-website/static/js/main.817c15b4.js",
+    "static/js/787.29ee624f.chunk.js": "/davidkristek-website/static/js/787.29ee624f.chunk.js",
+    "index.html": "/davidkristek-website/index.html",
+    "main.1c22afb7.css.map": "/davidkristek-website/static/css/main.1c22afb7.css.map",
+    "main.817c15b4.js.map": "/davidkristek-website/static/js/main.817c15b4.js.map",
+    "787.29ee624f.chunk.js.map": "/davidkristek-website/static/js/787.29ee624f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c22afb7.css",
-    "static/js/main.e318911e.js"
+    "static/js/main.817c15b4.js"
   ]
 }
