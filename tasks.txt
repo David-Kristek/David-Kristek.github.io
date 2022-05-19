@@ -1,0 +1,7 @@
+predelat landing page , mozna contact page // contact form design
+simple personal portfolio web design inspiration
+
+více informací posunout na šipku dole mezi
+
+u projectu
+https://stackoverflow.com/questions/43115246/how-to-detect-when-a-image-is-loaded-that-is-provided-via-props-and-change-sta
