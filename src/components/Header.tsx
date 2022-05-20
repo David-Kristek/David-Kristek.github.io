@@ -41,7 +41,7 @@ export default function Header() {
           }}
         >
           <Link
-            to="/"
+            to="/davidkristek-website/"
             className={`nav-item group ${pathname === "/" ? "active" : ""}`}
           >
             Domů
@@ -52,7 +52,7 @@ export default function Header() {
             />
           </Link>
           <Link
-            to="my-work"
+            to="/davidkristek-website/my-work"
             className={`nav-item group ${
               pathname.includes("/my-work") ? "active" : ""
             }`}
@@ -64,7 +64,7 @@ export default function Header() {
               }`}
             />
           </Link>
-          <Link to="/contact" className="nav-item group button sm:my-0 my-3 sm:block">
+          <Link to="/davidkristek-website/contact" className="nav-item group button sm:my-0 my-3 sm:block">
             Kontakt
           </Link>
         </nav>

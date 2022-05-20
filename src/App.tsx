@@ -15,13 +15,14 @@ export default function App() {
       <div className="min-h-[100vh] flex flex-col">
         <Header />
         <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/my-work" element={<MyWork />} />
-            <Route path="/my-work/:title" element={<Project />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<Navigate replace to="/" />} />
-          </Routes>
+          {/* <Routes>
+            <Route path="/davidkristek-website/" element={<Home />} />
+            <Route path="/davidkristek-website/my-work" element={<MyWork />} />
+            <Route path="/davidkristek-website/my-work/:title" element={<Project />} />
+            <Route path="/davidkristek-website/contact" element={<Contact />} />
+            <Route path="/davidkristek-website/*" element={<Navigate replace to="/davidkristek-website/" />} />
+          </Routes> */}
+          <Home />
         </ScrollToTop>
         <Footer />
       </div>

@@ -137,7 +137,7 @@ export default function AboutMe() {
                     </a>
                     <Link
                       className="button inline-block  mt-8 bg-[#3150ca9b] py-2"
-                      to="my-work"
+                      to="/my-work"
                     >
                       <div className="flex gap-x-2 items-center">
                         Moje projekty
