@@ -14,15 +14,16 @@ export default function App() {
     <ParallaxProvider>
       <div className="min-h-[100vh] flex flex-col">
         <Header />
-        {/* <ScrollToTop>
+        <ScrollToTop>
           <Routes>
             <Route path="/davidkristek-website/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/davidkristek-website/my-work" element={<MyWork />} />
             <Route path="/davidkristek-website/my-work/:title" element={<Project />} />
             <Route path="/davidkristek-website/contact" element={<Contact />} />
             <Route path="/davidkristek-website/*" element={<Navigate replace to="/davidkristek-website/" />} />
           </Routes>
-        </ScrollToTop> */}
+        </ScrollToTop>
         <Footer />
       </div>
     </ParallaxProvider>

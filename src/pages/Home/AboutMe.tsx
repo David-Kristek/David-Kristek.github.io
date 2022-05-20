@@ -8,10 +8,6 @@ import { Link } from "react-router-dom";
 export default function AboutMe() {
   const scroll = useScroll();
   const width = useWidth();
-  useEffect(() => {
-    console.log("scrolled", scroll);
-  }, [scroll]);
-
   return (
     <div className="pb-[100px] pt-[15vh]  2xl:pt-[35vh] md:pt-[30vh] ">
       <div className="container  pt-[31vh]" id="about">
@@ -40,7 +36,7 @@ export default function AboutMe() {
             </div>
             <div className="grid gap-y-3">
               <div>13. 6. 2005</div>
-              <div>17 let (za {Math.round((new Date(2022, 5, 13).getTime() - new Date().getTime()) / 82800000)} dní)</div>
+              <div>17 let (za {Math.ceil((new Date(2022, 5, 13).getTime() - new Date().getTime()) / 82800000)} dní)</div>
               <div>Fullstack javascript (React)</div>
               <div>Praha</div>
               <div>david.kristek05@gmail.com</div>
@@ -117,12 +113,12 @@ export default function AboutMe() {
                       se naučil úplné základy a poté jsem pokročil na C# a weby.
                       Webové stránky mě bavily nejvíc, jelikož mě bavilo
                       vytvářet snadné webové aplikace pro rodinu a kamarády. A u
-                      těch jsem také zůstal. Nejvíce z nich jsem se naučil během
+                      těch jsem také zůstal. Mnoho z nich jsem se naučil během
                       dvouleté distanční výuky, kdy jsem měl dost volného času.
                     </p>
                     <p>
                       Mým oblíbeným “nástrojem” pro weby se stal React s
-                      typescriptem a nebojím se ani backendu. V budoucnu bych
+                      typescriptem a baví mě i backend s databázemi. V budoucnu bych
                       chtěl se chtěl volnočasově věnovat programování webových
                       aplikací pro nějakou firmu.
                     </p>
@@ -130,7 +126,7 @@ export default function AboutMe() {
                       
                       Github
                       <img
-                        src="/logos/github.png"
+                        src="logos/github.png"
                         alt="github"
                         className="h-6"
                       />

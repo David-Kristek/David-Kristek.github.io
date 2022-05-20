@@ -10,10 +10,6 @@ export default function Scrollbar() {
   );
   const [top, setTop] = useState(0);
   function handleSize() {
-    console.log(
-      (window.innerHeight / pageHeight) * window.innerHeight,
-      window.innerHeight / document.documentElement.offsetHeight
-    );
     setSize((window.innerHeight / pageHeight) * window.innerHeight);
   }
   useEffect(() => {

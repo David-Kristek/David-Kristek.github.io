@@ -12,7 +12,7 @@ export default function MyWork() {
       <div className="md:mt-[160px] relative">
         <a href="#" className="absolute right-0 top-[-5px]" title="Github">
           <img
-            src="/logos/github.png"
+            src="logos/github.png"
             alt="github"
             className="h-[40px] opacity-60 transition-all hover:opacity-100"
           />
@@ -44,7 +44,7 @@ export default function MyWork() {
       <div className="md:mt-[160px] relative">
         <a href="#" className="absolute right-0" title="Github">
           <img
-            src="/logos/github.png"
+            src="logos/github.png"
             alt="github"
             className="h-[40px] opacity-60 transition-all hover:opacity-100"
           />
@@ -57,7 +57,7 @@ export default function MyWork() {
         </a>
         <div className="flex justify-center gap-x-2 items-center">
           <img
-            src="/logos/simple-social.png"
+            src="logos/simple-social.png"
             alt="Simple social"
             className="h-[45px]"
           />

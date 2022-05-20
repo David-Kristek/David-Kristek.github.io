@@ -17,9 +17,9 @@ export default function Hero() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   const sentences = [
-    "I`m web, mobile app developer",
+    "Nadšený web, mobile app developer",
     "Student na Gymnáziu Jaroslava Heyrovského",
-    "Hello guys how are you doin",
+    "Milovník nových technologií",
   ];
   const resp = useMemo(() => width > 1040, [width]);
 

@@ -11,9 +11,7 @@ export default function Contact() {
     setError(false);
     setSent(false);
     setLoading(true);
-    e.preventDefault();
-    console.log(name , email , message);
-    
+    e.preventDefault();    
     if (!name || !email || !message) {
       setError(true);
       setLoading(false);

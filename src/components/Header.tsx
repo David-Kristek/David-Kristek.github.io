@@ -23,7 +23,7 @@ export default function Header() {
     <header className="sm:bg-transparent w-full z-50">
       <div className="container px-0 sm:px-5 sm:pd-0 sm:flex justify-between items-center relative h-[65px] sm:h-[85px]">
         <div className="bg-mobilemenu z-10 relative sm:bg-transparent pb-2  ">
-        <img src="/logo.png" alt="logo" className="relative md:h-24 h-14 top-1 md:top-5"/>
+        <img src="logo.png" alt="logo" className="relative md:h-24 h-14 top-1 md:top-5"/>
           {mobileMenu ? (
             <ImCross className="mobile-icon text-purple" size={30} onClick={toggleMenu} />
           ) : (
@@ -42,25 +42,25 @@ export default function Header() {
         >
           <Link
             to="/davidkristek-website/"
-            className={`nav-item group ${pathname === "/" ? "active" : ""}`}
+            className={`nav-item group ${pathname === "/davidkristek-website/" ? "active" : ""}`}
           >
             Domů
             <span
               className={`nav-underline ${
-                pathname === "/" ? "nav-underlined " : ""
+                pathname === "/davidkristek-website/" ? "nav-underlined " : ""
               }`}
             />
           </Link>
           <Link
             to="/davidkristek-website/my-work"
             className={`nav-item group ${
-              pathname.includes("/my-work") ? "active" : ""
+              pathname.includes("my-work") ? "active" : ""
             }`}
           >
             Moje projekty
             <span
               className={`nav-underline ${
-                pathname.includes("/my-work") ? "nav-underlined " : ""
+                pathname.includes("my-work") ? "nav-underlined " : ""
               }`}
             />
           </Link>

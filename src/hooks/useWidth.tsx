@@ -4,9 +4,7 @@ export default function useWidth() {
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
     const updateWindowDimensions = () => {
-      setWidth(window.innerWidth);
-      console.log(window.innerWidth);
-      
+      setWidth(window.innerWidth);      
     };
 
     window.addEventListener("resize", updateWindowDimensions);

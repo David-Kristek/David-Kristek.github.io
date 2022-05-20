@@ -17,7 +17,7 @@ export default function Project() {
             {githubLinks.map((link, index) => (
               <a href={`https://github.com/${link}`} key={index} target="_blank" rel="noopener noreferrer" >
                 <img
-                  src="/logos/github.png"
+                  src="/davidkristek-website/logos/github.png"
                   alt={link}
                   className="h-12 cursor-pointer"
                 />

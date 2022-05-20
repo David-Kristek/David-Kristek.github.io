@@ -52,7 +52,7 @@ export default function Model({ width }: Props) {
   const group = useRef<THREE.Group>();
   // @ts-ignore
   const { nodes, materials, animations } = useGLTF(
-    "/dragon.gltf"
+    "/davidkristek-website/dragon.gltf"
   ) as GLTFResult;
   const direction = useRef(false);
   // useFrame(() => {
@@ -71,7 +71,6 @@ export default function Model({ width }: Props) {
     position: [x: number, y: number, z: number];
   }>();
   const resizeHandler = () => {
-    console.log("resizing");
     if (!group.current) return;
     const width = window.innerWidth;
     setResp(() => {
@@ -157,4 +156,4 @@ export default function Model({ width }: Props) {
   );
 }
 
-useGLTF.preload("/dragon.gltf");
+useGLTF.preload("/davidkristek-website/dragon.gltf");

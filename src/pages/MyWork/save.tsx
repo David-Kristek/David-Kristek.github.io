@@ -31,7 +31,7 @@ export default function MyWork() {
             <BsArrowRight className="text-2xl pt-[1px] " />
           </Link>
           <img
-            src="/projects/pisemkar-for.jpg"
+            src="projects/pisemkar-for.jpg"
             className="max-w-[40%] rounded-2xl"
           />
         </div>
@@ -59,7 +59,7 @@ export default function MyWork() {
             <BsArrowRight className="text-2xl pt-[1px] " />
           </Link>
           <img
-            src="/projects/pisemkar-for.jpg"
+            src="projects/pisemkar-for.jpg"
             className="max-w-[40%] rounded-2xl"
           />
         </div>
@@ -87,7 +87,7 @@ export default function MyWork() {
             <BsArrowRight className="text-2xl pt-[1px] " />
           </Link>
           <img
-            src="/projects/pisemkar-for.jpg"
+            src="projects/pisemkar-for.jpg"
             className="max-w-[40%] rounded-2xl"
           />
         </div>
@@ -115,7 +115,7 @@ export default function MyWork() {
             <BsArrowRight className="text-2xl pt-[1px] " />
           </Link>
           <img
-            src="/projects/pisemkar-for.jpg"
+            src="projects/pisemkar-for.jpg"
             className="max-w-[40%] rounded-2xl"
           />
         </div>
@@ -143,7 +143,7 @@ export default function MyWork() {
             <BsArrowRight className="text-2xl pt-[1px] " />
           </Link>
           <img
-            src="/projects/pisemkar-for.jpg"
+            src="projects/pisemkar-for.jpg"
             className="max-w-[40%] rounded-2xl"
           />
         </div>

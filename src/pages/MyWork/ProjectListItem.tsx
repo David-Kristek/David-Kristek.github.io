@@ -51,7 +51,7 @@ export default function ProjectListItem({ project, index }: Props) {
         {titleHtml}
         <p className="paragraph mt-5 ">{forText}</p>
         <LinkBox>
-          <StyledLink to={`/my-work/${title}`}>
+          <StyledLink to={`/davidkristek-website/my-work/${title}`}>
             <div>Více informacía</div>
             <BsArrowRight className="text-2xl pt-[1px] " />
           </StyledLink>
