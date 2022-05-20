@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/davidkristek-website/static/css/main.1c22afb7.css",
-    "main.js": "/davidkristek-website/static/js/main.55dab4a3.js",
+    "main.js": "/davidkristek-website/static/js/main.3bb20e46.js",
     "static/js/787.29ee624f.chunk.js": "/davidkristek-website/static/js/787.29ee624f.chunk.js",
     "index.html": "/davidkristek-website/index.html",
     "main.1c22afb7.css.map": "/davidkristek-website/static/css/main.1c22afb7.css.map",
-    "main.55dab4a3.js.map": "/davidkristek-website/static/js/main.55dab4a3.js.map",
+    "main.3bb20e46.js.map": "/davidkristek-website/static/js/main.3bb20e46.js.map",
     "787.29ee624f.chunk.js.map": "/davidkristek-website/static/js/787.29ee624f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c22afb7.css",
-    "static/js/main.55dab4a3.js"
+    "static/js/main.3bb20e46.js"
   ]
 }
