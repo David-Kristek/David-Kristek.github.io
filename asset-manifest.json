@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/davidkristek-website/static/css/main.1c22afb7.css",
-    "main.js": "/davidkristek-website/static/js/main.a2cf2d86.js",
-    "static/js/787.29ee624f.chunk.js": "/davidkristek-website/static/js/787.29ee624f.chunk.js",
-    "index.html": "/davidkristek-website/index.html",
-    "main.1c22afb7.css.map": "/davidkristek-website/static/css/main.1c22afb7.css.map",
-    "main.a2cf2d86.js.map": "/davidkristek-website/static/js/main.a2cf2d86.js.map",
-    "787.29ee624f.chunk.js.map": "/davidkristek-website/static/js/787.29ee624f.chunk.js.map"
+    "main.css": "/david-kristek.github.io/static/css/main.1c22afb7.css",
+    "main.js": "/david-kristek.github.io/static/js/main.06d0a5ca.js",
+    "static/js/787.29ee624f.chunk.js": "/david-kristek.github.io/static/js/787.29ee624f.chunk.js",
+    "index.html": "/david-kristek.github.io/index.html",
+    "main.1c22afb7.css.map": "/david-kristek.github.io/static/css/main.1c22afb7.css.map",
+    "main.06d0a5ca.js.map": "/david-kristek.github.io/static/js/main.06d0a5ca.js.map",
+    "787.29ee624f.chunk.js.map": "/david-kristek.github.io/static/js/787.29ee624f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c22afb7.css",
-    "static/js/main.a2cf2d86.js"
+    "static/js/main.06d0a5ca.js"
   ]
 }
