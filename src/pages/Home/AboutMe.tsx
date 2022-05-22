@@ -36,7 +36,7 @@ export default function AboutMe() {
             </div>
             <div className="grid gap-y-3">
               <div>13. 6. 2005</div>
-              <div>17 let (za {Math.ceil((new Date(2022, 5, 13).getTime() - new Date().getTime()) / 82800000)} dní)</div>
+              <div>17 let (za {Math.round((new Date(2022, 5, 13).getTime() - new Date().getTime()) / 82800000)} dní)</div>
               <div>Fullstack javascript (React)</div>
               <div>Praha</div>
               <div>david.kristek05@gmail.com</div>
