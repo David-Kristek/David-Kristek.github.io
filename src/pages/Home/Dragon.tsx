@@ -52,7 +52,7 @@ export default function Model({ width }: Props) {
   const group = useRef<THREE.Group>();
   // @ts-ignore
   const { nodes, materials, animations } = useGLTF(
-    "/davidkristek-website/dragon.gltf"
+    "/dragon.gltf"
   ) as GLTFResult;
   const direction = useRef(false);
   // useFrame(() => {
@@ -156,4 +156,4 @@ export default function Model({ width }: Props) {
   );
 }
 
-useGLTF.preload("/davidkristek-website/dragon.gltf");
+useGLTF.preload("/dragon.gltf");

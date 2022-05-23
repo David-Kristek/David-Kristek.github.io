@@ -1,6 +1,6 @@
 {
-  "name": "davidkristek-website",
-  "homepage": "https://David-Kristek.github.io/davidkristek-website",
+  "name": "David-Kristek.github.io",
+  "homepage": "https://David-Kristek.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

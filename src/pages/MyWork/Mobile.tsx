@@ -30,7 +30,7 @@ export default function Mobile({ app, className }: Props) {
         if (index === imgIndex - 2) className = "-translate-x-[200%]";
         return (
           <img
-            src={`/davidkristek-website/projects/${app}/${app}${image}.jpg`}
+            src={`/projects/${app}/${app}${image}.jpg`}
             alt="písemkář"
             className={`absolute inset-0 h-full w-full object-cover transition-all duration-300 ${className}`}
             key={index}

@@ -20,7 +20,7 @@ export default function Monitor({ className, app }: Props) {
       <div
         className={`relative bg-black border-black border-[20px] rounded-md overflow-hidden `}
       >
-        <img src="/davidkristek-website/windows.jpg" alt="windows" />
+        <img src="/windows.jpg" alt="windows" />
         {images.map((image, index) => {
           var className = "";
           if (index === imgIndex + 1) className = "translate-x-full";
@@ -29,7 +29,7 @@ export default function Monitor({ className, app }: Props) {
           if (index === imgIndex - 2) className = "-translate-x-[200%]";
           return (
             <img
-              src={`/davidkristek-website/projects/${app}/${app}${image}.jpg`}
+              src={`/projects/${app}/${app}${image}.jpg`}
               alt="písemkář"
               className={`absolute inset-0 transition-all duration-300 ${className}`}
               key={index}

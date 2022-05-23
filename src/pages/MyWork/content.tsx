@@ -20,11 +20,11 @@ const projects: ProjectType[] = [
     id: 1,
     title: "chatgen", // title + -for.png
     types: "WEBOVÁ APLIKACE",
-    icon: <img src="/davidkristek-website/projects/chatgen/logo.png" className="h-8 m-auto" alt="chatgen logo"/>,
+    icon: <img src="/projects/chatgen/logo.png" className="h-8 m-auto" alt="chatgen logo"/>,
 
     titleHtml: (
       <div className="flex gap-x-2 items-center mt-5">
-        <img src="/davidkristek-website/projects/chatgen/logo.png" className="h-8" alt="chatgen logo"/>
+        <img src="/projects/chatgen/logo.png" className="h-8" alt="chatgen logo"/>
         <h3 className="text-2xl font-mono">ChatGen</h3>
       </div>
     ),
@@ -109,11 +109,11 @@ const projects: ProjectType[] = [
     id: 4,
     title: "simplesocial",
     types: "MOBILNÍ APLIKACE",
-    icon: <img src="/davidkristek-website/projects/simplesocial/logo.png" className="h-6 m-auto" alt="simplesocial logo"/>,
+    icon: <img src="/projects/simplesocial/logo.png" className="h-6 m-auto" alt="simplesocial logo"/>,
 
     titleHtml: (
       <div className="flex gap-x-2 items-center mt-5">
-        <img src="/davidkristek-website/projects/simplesocial/logo.png" className="h-12 w-auto" alt="simplesocial logo"/>
+        <img src="/projects/simplesocial/logo.png" className="h-12 w-auto" alt="simplesocial logo"/>
       </div>
     ),
     forText:
@@ -142,12 +142,12 @@ const projects: ProjectType[] = [
     title: "larave-todolist",
     types: "WEBOVÁ APLIKACE",
     icon: (
-      <img src="/davidkristek-website/projects/larave-todolist/logo.png" className="h-6 m-auto" alt="laravel logo"/>
+      <img src="/projects/larave-todolist/logo.png" className="h-6 m-auto" alt="laravel logo"/>
     ),
 
     titleHtml: (
       <div className="flex gap-x-2 items-center mt-5">
-        <img src="/davidkristek-website/projects/larave-todolist/logo.png" className="h-12" alt="laravel logo"/>
+        <img src="/projects/larave-todolist/logo.png" className="h-12" alt="laravel logo"/>
         <h3 className="text-2xl font-thin">Laravel todolist</h3>
       </div>
     ),
@@ -168,12 +168,12 @@ const projects: ProjectType[] = [
     title: "bikemeter",
     types: "WEBOVÁ APLIKACE",
     icon: (
-      <img src="/davidkristek-website/projects/bikemeter/logo.png" className="h-6 m-auto" alt="bikemeter logo"/>
+      <img src="/projects/bikemeter/logo.png" className="h-6 m-auto" alt="bikemeter logo"/>
     ),
 
     titleHtml: (
       <div className="flex gap-x-2 items-center mt-5">
-        <img src="/davidkristek-website/projects/bikemeter/logo.png" className="h-12" alt="bikemeter logo"/>
+        <img src="/projects/bikemeter/logo.png" className="h-12" alt="bikemeter logo"/>
         <h3 className="text-2xl">Bike meter</h3>
       </div>
     ),
