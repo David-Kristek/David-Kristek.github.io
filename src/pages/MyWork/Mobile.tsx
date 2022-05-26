@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { motion } from "framer-motion";
+import { DeviceProps } from "./Project";
 interface Props {
   app: string;
   className?: string;
 }
 // https://www.framer.com/docs/examples/
 // https://codesandbox.io/s/framer-motion-image-gallery-pqvx3?from-embed=&file=/src/Example.tsx:2210-2222
-export default function Mobile({ app, className }: Props) {
+export default function Mobile({ className, app, setLoaded }: DeviceProps) {
   const [imgIndex, setImgIndex] = useState(0);
-  const [load, setLoad] = useState(false); 
   const images = [1, 2, 3];
+
   useEffect(() => {
     const interval = setInterval(() => {
       setImgIndex((imgIndex) => (imgIndex === 2 ? 0 : imgIndex + 1));
@@ -20,7 +21,7 @@ export default function Mobile({ app, className }: Props) {
   }, [imgIndex]);
   return (
     <div
-      className={`relative lg:h-[686px] lg:w-[342px] h-[500px] w-[250px] bg-black lg:rounded-[45px] rounded-[35px] shadow-xl overflow-hidden lg:border-[12px] border-[10px] border-black ${className} mx-auto lg:mx-0 ${!load && "hidden"}`}
+      className={`relative lg:h-[686px] lg:w-[342px] h-[500px] w-[250px] bg-black lg:rounded-[45px] rounded-[35px] shadow-xl overflow-hidden lg:border-[12px] border-[10px] border-black ${className} mx-auto lg:mx-0 }`}
     >
       {images.map((image, index) => {
         var className = "";
@@ -34,7 +35,8 @@ export default function Mobile({ app, className }: Props) {
             alt="písemkář"
             className={`absolute inset-0 h-full w-full object-cover transition-all duration-300 ${className}`}
             key={index}
-            onLoad={()=> setLoad(true)}
+            onLoad={() => setLoaded(true)}
+            onError={() => setLoaded(true)}
           />
         );
       })}

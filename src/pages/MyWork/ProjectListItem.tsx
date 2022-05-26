@@ -26,7 +26,7 @@ export default function ProjectListItem({ project, index }: Props) {
                                                    : p.$id + (p.$id - 1)
                                                } lg:col-start-${
                                                  p.$id % 2 > 0 ? "1" : "5"
-                                               }`} `; // mb - bude se moci animovat
+                                               }`} `;
   const Image = tw.img`max-w-[60%] sm:max-w-[40%] rounded-2xl sm:mb-0 mb-5`;
   const Badge = tw.span`px-3 py-1.5 text-xs text-white bg-trbox rounded font-bold `;
   const LinkBox = tw.div`flex flex-col-reverse sm:flex-row items-center justify-between sm:items-start mt-4`;

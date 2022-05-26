@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { DeviceProps } from "./Project";
 
-interface Props {
-  className?: string;
-  app?: string;
-}
-export default function Monitor({ className, app }: Props) {
+export default function Monitor({ className, app, setLoaded }: DeviceProps) {
   const [imgIndex, setImgIndex] = useState(0);
-  const [load, setLoad] = useState(false); 
+  const [noImg, setNoImg] = useState(false);
   const images = [1, 2, 3];
   useEffect(() => {
     const interval = setInterval(() => {
@@ -15,8 +12,9 @@ export default function Monitor({ className, app }: Props) {
 
     return () => clearInterval(interval);
   }, [imgIndex]);
+  if (noImg) return <></>;
   return (
-    <div className={`${className} w-full  mx-auto relative ${!load && "hidden"}`}>
+    <div className={`${className} w-full  mx-auto relative`}>
       <div
         className={`relative bg-black border-black border-[20px] rounded-md overflow-hidden `}
       >
@@ -33,7 +31,13 @@ export default function Monitor({ className, app }: Props) {
               alt="písemkář"
               className={`absolute inset-0 transition-all duration-300 ${className}`}
               key={index}
-              onLoad={() => setLoad(true)}
+              onLoad={() => setLoaded(true)}
+              onError={() => {
+                {
+                  setNoImg(true);
+                  setLoaded(true);
+                }
+              }}
             />
           );
         })}
